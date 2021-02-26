@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>NOTE PAD</title>
+</head>
+<body>
+	<header><h1>NOTE PAD</h1></header>
+	<div class="container">
+		<div id="note_form">
+			<input type="text" placeholder="Title" id="title"></input>
+			<textarea placeholder="Type a note here..." id="content" rows="5"></textarea>
+			<div id="options">
+				<p id="colorInstruction">Add your note color: </p>
+				<input id="color_picker" type="color" value="#ffffff">
+			</div>
+			<button id="addBtn">Save a note</button>
+		</div>
+	</div>
+	
+	<div id="root">
+
+	</div>
+
+	<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+html {
+  background-color: yellowgreen;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+#note_form {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+  padding: 10px;
+  margin: 10px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+#colorInstruction {
+  margin: 0px;
+}
+
+#title,
+.renderedTitle {
+  font-family: inherit;
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  font-size: 33px;
+  padding: 7px;
+  margin: 7px;
+}
+
+.renderedTitle {
+  overflow: hidden;
+}
+
+#content,
+.renderedContent {
+  resize: none;
+  font-family: inherit;
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  font-size: 23px;
+  padding: 7px;
+  margin: 7px;
+  background: transparent;
+}
+
+#options {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 7px;
+}
+
+button {
+  padding: 7px;
+  margin: 7px;
+}
+
+input {
+  background: transparent;
+}
+
+#root {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.rendered_note {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+  width: 20%;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.renderedNoteOptions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pinned {
+  content: url(https://img.icons8.com/material-outlined/2x/pin.png);
+  width: 20px;
+}
+
+.pinned:hover {
+  content: url(https://img.icons8.com/material/2x/pin.png);
+}
